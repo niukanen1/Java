@@ -20,3 +20,6 @@ public class Task4 {
         System.out.println("----- конец задачи 4 ------");
     }
 }
+
+
+/// zjkfdhbzjb
