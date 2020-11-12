@@ -29,8 +29,7 @@ public class Task3 {
             
             if (myArr[i] > max) max = myArr[i]; 
             if (myArr[i] < min) min = myArr[i]; 
-            sum += myArr[i]; 
-            
+            sum += myArr[i];
         }
         
         

@@ -11,8 +11,8 @@ package startdev;
  */
 public class Task4 {
     public void run(){
-        System.out.println("----- Задача 4 ------");
-        System.out.println("Создаем одномерный массив  из 10 ячеек типа int, \nзаполняем его случайными ЧЕТНЫМИ числами и выводим \nего значения в цикле");
+        System.out.println("----- Task 4 ------");
+        System.out.println("");// sdfhgsdlkjfhgsld
         int myArr[] = ;
         for(){
             
