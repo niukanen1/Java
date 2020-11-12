@@ -12,11 +12,17 @@ package startdev;
 public class Task4 {
     public void run(){
         System.out.println("----- Task 4 ------");
-        System.out.println("");// sdfhgsdlkjfhgsld
-        int myArr[] = ;
-        for(){
-            
+        System.out.println("Create array including 10 elements of even numbers");// sdfhgsdlkjfhgsld
+        int [] myArr; 
+        myArr = new int[10];
+        System.out.print("Четные числа: ");
+        for(int i = 0; i < myArr.length; i++){
+            int x = (int) (Math.random() * 10); 
+            if (x % 2 == 0) { 
+                myArr[i] = x ;
+            }
+            System.out.print(myArr[i]);
         }
-        System.out.println("----- РєРѕРЅРµС† Р·Р°РґР°С‡Рё 4 ------");
+        System.out.println("\n----- End of task 4 ------");
     }
 }

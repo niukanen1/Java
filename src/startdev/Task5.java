@@ -11,14 +11,18 @@ package startdev;
  */
 public class Task5 {
     public void run(){
-        System.out.println("----- Задача 5 ------");
-        System.out.println("Создаем ДВУХМЕРНЫЙ массив  из 10х5 ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");
-        int myArr[][] = ;
-        for(){
-            for(){
-                
+        System.out.println("----- task 5 ------");
+        System.out.println("");
+        int[][] myArr;
+        myArr = new int [10][5]; 
+        System.out.print("Array: "); 
+        for (int i = 0; i < myArr.length; i++) {
+            System.out.print("\n");
+            for (int j = 0; j < myArr[i].length; j++) {
+               myArr[i][j] = (int) (Math.random() * 10);
+               System.out.print(myArr[i][j]); 
             }
         }
-        System.out.println("----- конец задачи 5 ------");
+        System.out.println("\n----- End of task  5 ------");
     }
 }

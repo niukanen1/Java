@@ -5,6 +5,8 @@
  */
 package startdev;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
@@ -14,6 +16,7 @@ public class Task3 {
         int sum = 0; 
         int max = 0; 
         int min = 10; 
+        
         System.out.println("----- Task 3 ------\n");
         
         int[] myArr;

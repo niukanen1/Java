@@ -11,14 +11,20 @@ package startdev;
  */
 public class Task6 {
     public void run(){
-        System.out.println("----- Р—Р°РґР°С‡Р° 6 ------");
-        System.out.println("РЎРѕР·РґР°РµРј Р”Р’РЈРҐРњР•Р РќР«Р™ Р—РЈР‘Р§РђРўР«Р™ РјР°СЃСЃРёРІ  РёР· 10С…(5,6,7,8,9) СЏС‡РµРµРє С‚РёРїР° int, \nР·Р°РїРѕР»РЅСЏРµРј РµРіРѕ СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё Рё РІС‹РІРѕРґРёРј \nРµРіРѕ Р·РЅР°С‡РµРЅРёСЏ РІ С†РёРєР»Рµ");
-        int myArr[][] = ;
-        for(){
-            for(){
-                
+        System.out.println("----- Task 6 ------");
+        System.out.println("Создаем ДВУХМЕРНЫЙ ЗУБЧАТЫЙ массив  из 10х(5,6,7,8,9) ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");
+        int[][] myArr; 
+        int x = 10; 
+        myArr = new int[10][9];
+        for (int i = 0; i < myArr.length; i++){
+            x--;
+            System.out.println("\n");
+            for (int j = 0; j < x; j++){
+                myArr[i][j] = (int) (Math.random() * 10); 
+                myArr[i][j] = (int) (Math.random() * 10);
+                System.out.print(myArr[i][j]);
             }
         }
-        System.out.println("----- РєРѕРЅРµС† Р·Р°РґР°С‡Рё 6 ------");
+        System.out.println("\n----- end of Task 6 ------");
     }
 }
