@@ -12,8 +12,8 @@ package startdev;
 public class Task4 {
     public void run(){
         System.out.println("----- Task 4 ------");
-        System.out.println("");// sdfhgsdlkjfhgsld
-        int myArr[] = ;
+        System.out.println("Create new array with random even numbers");
+        int[] myArr = new int[10]; 
         for(){
             
         }
