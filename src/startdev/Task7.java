@@ -7,6 +7,8 @@ package startdev;
 
 import java.util.Scanner;
 
+import static java.lang.Character.*;
+
 /**
  *
  * @author user
@@ -21,6 +23,7 @@ public class Task7 {
         String str = input.nextLine().toLowerCase();
         System.out.print("Enter a letter: ");
         char letter = input.next().charAt(0);
+        letter = toLowerCase(letter);
         
         char[] strArr = new char[str.length()] ; 
         int count = 0; 

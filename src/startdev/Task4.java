@@ -15,7 +15,7 @@ public class Task4 {
         System.out.println("Create array including 10 elements of even numbers");// sdfhgsdlkjfhgsld
         int [] myArr; 
         myArr = new int[10];
-        System.out.print("Четные числа: ");
+        System.out.print("Array : ");
         for(int i = 0; i < myArr.length; i++){
             int x = (int) (Math.random() * 10); 
             if (x % 2 == 0) { 
