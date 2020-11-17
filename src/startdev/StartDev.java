@@ -22,42 +22,55 @@ public class StartDev {
 
 
     public static void PauseBeforeGoOn() {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Press any key to continue");
-        input.nextLine();
-    }
-
-
-    public static void main(String[] args) {
-        Task1 task1 = new Task1();
-        Task2 task2 = new Task2();
-        Task3 task3 = new Task3();
-        Task4 task4 = new Task4();
-        Task5 task5 = new Task5();
-        Task6 task6 = new Task6();
-        Task7 task7 = new Task7();
-
-        PauseBeforeGoOn();
-        task1.run();
-
-        PauseBeforeGoOn();
-        task2.run();
-
-        PauseBeforeGoOn();
-        task3.run();
-
-        PauseBeforeGoOn();
-        task4.run();
-
-        PauseBeforeGoOn();
-        task5.run();
-
-        PauseBeforeGoOn();
-        task6.run();
-
-        PauseBeforeGoOn();
-        task7.run();
-
+        System.out.println("Pressing 1 to 7 starting exact task \nPress 0 to quit ");
 
     }
+
+
+        public void run() {
+
+            Task1 task1 = new Task1();
+            Task2 task2 = new Task2();
+            Task3 task3 = new Task3();
+            Task4 task4 = new Task4();
+            Task5 task5 = new Task5();
+            Task6 task6 = new Task6();
+            Task7 task7 = new Task7();
+
+            boolean isRunning = true;
+            int user;
+            Scanner input = new Scanner(System.in);
+            do {
+                PauseBeforeGoOn();
+                user = input.nextInt();
+
+                switch (user) {
+                    case 0:
+                        System.out.println("Quiting Startdev...");
+                        isRunning = false;
+                        break;
+                    case 1:
+                        task1.run();
+                        break;
+                    case 2:
+                        task2.run();
+                        break;
+                    case 3:
+                        task3.run();
+                        break;
+                    case 4:
+                        task4.run();
+                        break;
+                    case 5:
+                        task5.run();
+                        break;
+                    case 6:
+                        task6.run();
+                        break;
+                    case 7:
+                        task7.run();
+                        break;
+                }
+            } while(isRunning);
+        }
 }
