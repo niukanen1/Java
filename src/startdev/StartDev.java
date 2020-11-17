@@ -27,6 +27,7 @@ public class StartDev {
         input.nextLine();
     }
 
+
     public static void main(String[] args) {
         Task1 task1 = new Task1();
         Task2 task2 = new Task2();
@@ -36,28 +37,28 @@ public class StartDev {
         Task6 task6 = new Task6();
         Task7 task7 = new Task7();
 
-
-
-        PauseBeforeGoOn();
-        task1.run();
-
-        PauseBeforeGoOn();
-        task2.run();
-
-        PauseBeforeGoOn();
-        task3.run();
-
-        PauseBeforeGoOn();
-        task4.run();
-
-        PauseBeforeGoOn();
-        task5.run();
-
-        PauseBeforeGoOn();
         task6.run();
 
-        PauseBeforeGoOn();
-        task7.run();
+//        PauseBeforeGoOn();
+//        task1.run();
+//
+//        PauseBeforeGoOn();
+//        task2.run();
+//
+//        PauseBeforeGoOn();
+//        task3.run();
+//
+//        PauseBeforeGoOn();
+//        task4.run();
+//
+//        PauseBeforeGoOn();
+//        task5.run();
+//
+//        PauseBeforeGoOn();
+//        task6.run();
+//
+//        PauseBeforeGoOn();
+//        task7.run();
 
 
     }

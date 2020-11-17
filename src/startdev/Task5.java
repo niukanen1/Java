@@ -15,7 +15,8 @@ public class Task5 {
         System.out.println("");
         int[][] myArr;
         myArr = new int [10][5]; 
-        System.out.print("Array: "); 
+        System.out.print("Array: ");
+
         for (int i = 0; i < myArr.length; i++) {
             System.out.print("\n");
             for (int j = 0; j < myArr[i].length; j++) {
